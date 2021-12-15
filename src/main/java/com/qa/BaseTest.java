@@ -49,7 +49,7 @@ public class BaseTest {
 			caps.setCapability(MobileCapabilityType.UDID, "emulator-5554");
 			caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, prop.getProperty("androidAutomationName"));
 			URL appURL = getClass().getClassLoader().getResource(prop.getProperty("androidAppLocation"));
-			caps.setCapability(MobileCapabilityType.APP, "/Users/riyaanghosh/eclipse-workspace/MyTDDProject/src/test/resources/app/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk");
+			caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\VallisriTolety\\git\\MyTDDProject\\src\\test\\resources\\app\\Android.SauceLabs.Mobile.Sample.app.2.7.1.apk");
 			caps.setCapability("appPackage", prop.getProperty("androidAppPackage"));
 			caps.setCapability("appActivity", prop.getProperty("androidAppActivity"));
 			URL url = new URL(prop.getProperty("appiumURL"));
