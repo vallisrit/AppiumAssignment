@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-15T14:48:46 IST" name="Default suite" finished-at="2021-12-15T14:48:50 IST" duration-ms="4018">
+  <suite started-at="2021-12-15T15:18:13 IST" name="Default suite" finished-at="2021-12-15T15:18:17 IST" duration-ms="3929">
     <groups>
     </groups>
-    <test started-at="2021-12-15T14:48:46 IST" name="Default test" finished-at="2021-12-15T14:48:50 IST" duration-ms="4018">
+    <test started-at="2021-12-15T15:18:13 IST" name="Default test" finished-at="2021-12-15T15:18:17 IST" duration-ms="3929">
       <class name="com.qa.tests.LoginTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:33 IST" name="setup" finished-at="2021-12-15T14:48:46 IST" duration-ms="12551" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:00 IST" name="setup" finished-at="2021-12-15T15:18:13 IST" duration-ms="12728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:46 IST" name="beforeClass" finished-at="2021-12-15T14:48:49 IST" duration-ms="3802" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:13 IST" name="beforeClass" finished-at="2021-12-15T15:18:17 IST" duration-ms="3726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:49 IST" name="beforeMethod" finished-at="2021-12-15T14:48:50 IST" duration-ms="51" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="beforeMethod" finished-at="2021-12-15T15:18:17 IST" duration-ms="36" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@ at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotati
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="invalidPassword" finished-at="2021-12-15T14:48:50 IST" duration-ms="0" status="SKIP">
+        <test-method signature="invalidPassword()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="invalidPassword" finished-at="2021-12-15T15:18:17 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NoSuchMethodException: jdk.proxy2.$Proxy13.proxyClassLookup()]]>
@@ -152,15 +152,15 @@ at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotati
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639559930098" status="SKIP">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639561697588" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639559930102" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639561697593" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="invalidUserName" finished-at="2021-12-15T14:48:50 IST" duration-ms="0" status="SKIP">
+        <test-method signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="invalidUserName" finished-at="2021-12-15T15:18:17 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NoSuchMethodException: jdk.proxy2.$Proxy13.proxyClassLookup()]]>
@@ -225,15 +225,15 @@ at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotati
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserName -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639559930115" status="SKIP">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639561697604" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639559930124" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639561697621" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="successfulLogin" finished-at="2021-12-15T14:48:50 IST" duration-ms="0" status="SKIP">
+        <test-method signature="successfulLogin()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="successfulLogin" finished-at="2021-12-15T15:18:17 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NoSuchMethodException: jdk.proxy2.$Proxy13.proxyClassLookup()]]>
@@ -298,15 +298,15 @@ at io.appium.java_client.pagefactory.bys.builder.AppiumByBuilder.prepareAnnotati
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successfulLogin -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639559930135" status="SKIP">
+        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639561697638" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639559930138" status="SKIP">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639561697641" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T14:48:50 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639559930324" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.LoginTests@7c7a06ec]" started-at="2021-12-15T15:18:17 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639561697873" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
